@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(251, 251, 151);
+}
+
+img {
+    width: 150pt;
+    height: 150pt;
+    margin: 10pt;
+}
+
+.pizza {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80pt;
+}
+
+.botoes {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    padding: 3pt;
+    margin: 2pt;
+    cursor: pointer;
+}
+
+#btn-finalizar {
+    background-color: rgb(117, 234, 93);
+}
+#btn-finalizar:hover {
+    background-color: rgb(59, 121, 47);
+    transition: 0.4s;
+}
+
+#btn-limpar {
+    background-color: red;
+}
+
+#btn-limpar:hover {
+    background-color: rgb(208, 4, 4);
+    transition: 0.4s;
+}
+
+#btn-add:hover{
+    background-color: rgb(218, 218, 92);
+}
+
+#precoPizza {
+    width: 50pt;
+    height: 30pt;
+}
